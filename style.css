@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.logo img {
+    width: 72px;
+    height: 72px;
+    margin-left: 4rem;
+}
+
+header a {
+    text-decoration: none;
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: #45b29a;
+}
+
+.menu ul {
+    float: right;
+    margin: -2.5rem 5rem 0 0;
+
+
+}
+
+header {
+
+    padding: 2.5rem;
+}
+
+.active {
+    color: #21564b;
+}
+
+.menu a:hover {
+    color: #21564b;
+    text-decoration: underline;
+}
+
+.continer {
+    background: #E0EBE8;
+}
+
+.name-heading {
+    color: #45b29a;
+    text-align: center;
+}
+
+.name-heading h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+
+}
+
+.name-heading p {
+
+    font-size: 1.2rem;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 2rem;
+
+}
+
+.parent {
+    margin: 6rem 0 0 0;
+
+}
+
+
+.name-heading img {
+    position: relative;
+
+    left: 1rem;
+    width: 700px;
+    vertical-align: middle;
+    margin-top: 6rem;
+}
+
+.cloud {
+    position: absolute;
+    background: url(/Image/cloud.svg) top left no-repeat;
+    width: 150px;
+    height: 45px;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    z-index: 980;
+}
+
+.left-cloud {
+
+    bottom: 22rem;
+    left: 4rem;
+}
+
+.cloud {
+    position: absolute;
+    background: url(/Image/cloud.svg) top left no-repeat;
+    width: 150px;
+    height: 45px;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    z-index: 980;
+}
+
+.right-cloud {
+    position: absolute;
+    right: 3rem;
+    bottom: 31rem;
+}
+
+.name-heading input {
+    border: none;
+    outline: none;
+    padding: 2rem;
+    background-color: transparent;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    color: #45b29a;
+}
+
+.profile-logo {
+    text-align: center;
+}
+
+.img-containr {
+    position: relative;
+}
+
+.profile-logo img {
+    width: 150px;
+    padding-top: 4rem;
+}
+
+.profile-logo h1 {
+    color: #45b29a;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.profile-logo p {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #675f56;
+
+}
+/* .continer1{
+    height: 50rem;
+} */
+.profile-logo hr{
+    width: 3%;
+position: relative;
+left: 33rem;
+top: 3rem;
+border-style: dashed;
+}
+.new-heading{
+    text-align: center;
+margin-top: 8rem;
+color: #1e836c;
+font-family: 'Roboto Mono', monospace;
+font-weight: 200;
+font-size: 2.5rem;
+}
+.container2 img{
+    width: 150px;
+    margin-left: 14rem;
+}
+.img-a{
+    background: #F3F2F1;
+    width: 77px;
+    height: 77px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    position: absolute;
+    overflow: hidden;
+    top: 35.6em;
+    left: 26rem;
+
+    
+}
+.icon-vert{
+    webkit-animation-name: down-vert;
+    -moz-animation-name: down-vert;
+    animation-name: down-vert;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    width: 77px;
+    height: 77px;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: cubic-bezier(1,0,0,1);
+    -moz-animation-duration: 20s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: cubic-bezier(1,0,0,1);
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1,0,0,1);
+    background: url('Image/design-icons-vert.png');
+}
+.me-pro{
+    display: flex;
+}
+.pro{
+    padding-top: 6rem;
+}
+.pra1 h2{
+    font-size: 2rem;
+}
+.pra1 p{
+    text-align: justify;
+font-size: 15px;
+/* left: 3rem; */
+margin-left: 16rem;
+}
+.pra1{
+    margin: -11rem 0 0 18rem;
+}
+.heading-3{
+    position: relative;
+top: 9rem;
+text-align: center;
+}
+.heading-3 h2{
+    color: #1e836c;
+  font-size: 3rem;
+}
+.heading-3 h4{
+    margin-top: 1rem;
+font-size: 23px;
+color: #1e836c;
+}
+.heading-3 p{
+    margin-top: 2rem;
+}
+.heading-3 a{
+    border: solid aliceblue;
+/* width: 23px; */
+padding: 6px;
+background: #1e836c;
+color: white;
+/* margin-top: 4rem; */
+position: relative;
+top: 2rem;
+text-decoration: none;
+font-size: 2rem;
+}
